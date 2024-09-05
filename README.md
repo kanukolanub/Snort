@@ -64,3 +64,9 @@ Now, you should have the logs in the current directory. Navigate to folder "145.
 
 ![image](https://github.com/user-attachments/assets/47e57055-5a17-4714-bf3b-4b7f6e7bed4a)
 
+**Read the "snort.log.1640048004" file with Snort; what is the Ack number of the 8th packet?**
+**Answer is 0x38AFFFF3**
+![image](https://github.com/user-attachments/assets/9a33c026-c50a-4861-8d33-ef239a53d297)
+
+![image](https://github.com/user-attachments/assets/f2c73d2a-20aa-4c14-b736-3588439bd17c)
+
