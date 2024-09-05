@@ -10,3 +10,9 @@ This repository contains a project on how to use snort in Sniffer, Packet Logger
 **1. Run the Snort instance and check the build number.**
 
 ![image](https://github.com/user-attachments/assets/42ca249d-58b1-49a8-8888-cd1cbf1095ea)
+
+**2. Run Snort in Sniffer Mode **
+sniffer mode parameters are mentioned in the table below
+
+![image](https://github.com/user-attachments/assets/aa7f2600-31bf-40f5-9365-1d457e6c13e9)
+
