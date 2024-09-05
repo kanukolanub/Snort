@@ -70,3 +70,8 @@ Now, you should have the logs in the current directory. Navigate to folder "145.
 
 ![image](https://github.com/user-attachments/assets/f2c73d2a-20aa-4c14-b736-3588439bd17c)
 
+**Read the "snort.log.1640048004" file with Snort; what is the number of the "TCP port 80" packets?**
+**Answer is 41**
+![image](https://github.com/user-attachments/assets/e0764d77-28c9-4b61-9b67-67d92a334e04)
+
+![image](https://github.com/user-attachments/assets/882f17a3-2e8f-4e65-8479-8b708f5c02cf)
