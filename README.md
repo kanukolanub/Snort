@@ -17,3 +17,11 @@ sniffer mode parameters are mentioned in the table below
 
 ![image](https://github.com/user-attachments/assets/aa7f2600-31bf-40f5-9365-1d457e6c13e9)
 
+![image](https://github.com/user-attachments/assets/fce04ab0-596d-46f4-b5e1-d651d8aee184)
+
+![image](https://github.com/user-attachments/assets/3731ebbe-c674-4538-917d-7e3263568125)
+
+![image](https://github.com/user-attachments/assets/a224bc8e-11d7-43da-9335-5b732bf958d5)
+
+![image](https://github.com/user-attachments/assets/202b53ae-bdf9-4558-9537-260e8385a666)
+
