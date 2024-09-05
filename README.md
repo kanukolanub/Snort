@@ -43,7 +43,7 @@ Execute the traffic generator script and choose "TASK-6 Exercise". Wait until th
 sudo ./traffic-generator.sh
 
 Now, you should have the logs in the current directory. Navigate to folder "145.254.160.237". 
-What is the source port used to connect port 53? Answer is UDP 3009
+**What is the source port used to connect port 53? Answer is UDP 3009**
 
 ![image](https://github.com/user-attachments/assets/00c4271f-e6b8-4a93-9ba4-c21250cc7ed1)
 
@@ -51,7 +51,16 @@ What is the source port used to connect port 53? Answer is UDP 3009
 
 ![image](https://github.com/user-attachments/assets/5653e30b-0ee6-411a-96da-bfbf45993cc2)
 
+**Use snort.log.1640048004 Read the snort.log file with Snort; what is the IP ID of the 10th packet?**
+**Answer is ID 49313**
 
+![image](https://github.com/user-attachments/assets/1d71122a-732f-4ac2-b295-5e11f398f212)
 
+![image](https://github.com/user-attachments/assets/a8db1673-e9b6-4051-bba2-47d86c690bc2)
 
+**Read the "snort.log.1640048004" file with Snort; what is the referer of the 4th packet?**
+**Answer is www.ethereal.com/development.html**
+![image](https://github.com/user-attachments/assets/65e8d0de-1026-4ca5-a8d2-98b98b5156d2)
+
+![image](https://github.com/user-attachments/assets/47e57055-5a17-4714-bf3b-4b7f6e7bed4a)
 
