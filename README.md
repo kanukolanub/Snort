@@ -75,3 +75,25 @@ Now, you should have the logs in the current directory. Navigate to folder "145.
 ![image](https://github.com/user-attachments/assets/e0764d77-28c9-4b61-9b67-67d92a334e04)
 
 ![image](https://github.com/user-attachments/assets/882f17a3-2e8f-4e65-8479-8b708f5c02cf)
+
+**4. Snort in IDS/IPS Mode**
+![image](https://github.com/user-attachments/assets/a58093c5-5313-4a78-aea1-e9e47b2f22ee)
+
+**Investigate the traffic with the default configuration file.**
+**sudo snort -c /etc/snort/snort.conf -A full -l .**
+
+**Execute the traffic generator script and choose "TASK-7 Exercise". Wait until the traffic stops, then stop the Snort instance. Now analyse the output summary and answer the question.**
+**sudo ./traffic-generator.sh**
+
+**What is the number of the detected HTTP GET methods?**
+
+![image](https://github.com/user-attachments/assets/97c87f36-fd1f-44de-9028-4c5f1efca6f6)
+**Answer is 2**
+![image](https://github.com/user-attachments/assets/1ba33f63-743b-479b-ad4b-5b34be3d4ada)
+
+![image](https://github.com/user-attachments/assets/6ad3f7ad-540d-4eb0-bee9-5e36186b2fc4)
+
+![image](https://github.com/user-attachments/assets/2f8dc26c-9f6b-4160-8b22-1d24b6fa38dd)
+
+**5. Investigating PCAPs with Snort**
+
