@@ -97,3 +97,41 @@ Now, you should have the logs in the current directory. Navigate to folder "145.
 
 **5. Investigating PCAPs with Snort**
 
+![image](https://github.com/user-attachments/assets/012337aa-4240-41db-9c4d-697ef843f5ed)
+
+**Investigate the mx-1.pcap file with the default configuration file.
+sudo snort -c /etc/snort/snort.conf -A full -l . -r mx-1.pcap
+What is the number of the generated alerts?** **Answer is 170**
+
+![image](https://github.com/user-attachments/assets/2882fa82-dfd5-4ea9-86a3-c837dfd92948)
+
+![image](https://github.com/user-attachments/assets/8993aed1-8afe-4f31-8a24-a212277d920d)
+
+![image](https://github.com/user-attachments/assets/910962e3-3982-466c-80c3-616967b02564)
+
+**Keep reading the output. How many TCP Segments are Queued?** **Answer is 18**
+**Keep reading the output.How many "HTTP response headers" were extracted?** **Answer is 3**
+
+![image](https://github.com/user-attachments/assets/27447682-61d4-4769-a677-20e5966a9061)
+
+**Investigate the mx-1.pcap file with the second configuration file.
+sudo snort -c /etc/snort/snortv2.conf -A full -l . -r mx-1.pcap
+What is the number of the generated alerts?** **Answer is 68**
+
+![image](https://github.com/user-attachments/assets/8adbfcf7-f953-4272-94a7-5d145859c291)
+
+![image](https://github.com/user-attachments/assets/3b93b52d-753e-4d15-b84d-129db8cee6f7)
+
+**Investigate the mx-2.pcap file with the default configuration file.
+sudo snort -c /etc/snort/snort.conf -A full -l . -r mx-2.pcap**
+**Keep reading the output. What is the number of the detected TCP packets?** **Answer is 82**
+
+**![image](https://github.com/user-attachments/assets/89e838c2-5d0f-4cf2-a9c9-d74eaac4b832)
+Investigate the mx-2.pcap and mx-3.pcap files with the default configuration file.
+sudo snort -c /etc/snort/snort.conf -A full -l . --pcap-list="mx-2.pcap mx-3.pcap"**
+**What is the number of the generated alerts?** **Answer is 1020**
+
+![image](https://github.com/user-attachments/assets/8a87eb09-7d12-464d-81f9-29c20081dda2)
+
+![image](https://github.com/user-attachments/assets/9e83999b-fac7-4ed5-a0b0-04f072725b5e)
+
